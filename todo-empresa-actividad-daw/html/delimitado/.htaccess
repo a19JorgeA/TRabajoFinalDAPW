@@ -1,0 +1,5 @@
+AuthType Basic
+AuthName "Aquí solo pueden entrar administradores, ¡SORRY!"
+AuthUserFile /etc/apache2/todo-empresa-actividad-daw/passwd
+AuthGroupFile /etc/apache2/todo-empresa-actividad-daw/roles
+Require group admin
